@@ -21,13 +21,6 @@ The program blends the watermark with the original image using pixel-level avera
      ```
 4. Writes the new image to `xxx.bmp` with the correct BMP header.
 
-## 🛠️ How to Use
-
-1. Open the project in **Visual Studio**.
-2. Place `AIgened_gray.bmp` and `logo.bmp` in the same directory as your executable.
-3. Build and run the project.
-4. The output file `xxx.bmp` will be generated in the same folder.
-
 ## ⚠️ Notes
 
 - The program only supports 8-bit grayscale BMP files (no compression).
@@ -44,10 +37,4 @@ The program blends the watermark with the original image using pixel-level avera
 **Output Image:**
 
 - ✅ `xxx.bmp` (Watermarked)
-
-## ✍️ Author
-
-Made with ❤️ in C++ for basic image processing and watermarking.
-
----
 
